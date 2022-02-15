@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D7C811027BB740300EF0418 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D7C810F27BB740300EF0418 /* main.cpp */; };
+		1D7C811727BB763700EF0418 /* RecursionFun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D7C811627BB763700EF0418 /* RecursionFun.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		1D7C810C27BB740300EF0418 /* No Brainer: Recursion Maze 6.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "No Brainer: Recursion Maze 6.1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7C810F27BB740300EF0418 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1D7C811627BB763700EF0418 /* RecursionFun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecursionFun.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				1D7C810F27BB740300EF0418 /* main.cpp */,
+				1D7C811627BB763700EF0418 /* RecursionFun.cpp */,
 			);
 			path = "No Brainer: Recursion Maze 6.1";
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D7C811727BB763700EF0418 /* RecursionFun.cpp in Sources */,
 				1D7C811027BB740300EF0418 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
