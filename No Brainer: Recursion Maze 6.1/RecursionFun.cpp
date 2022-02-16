@@ -1,7 +1,7 @@
 #pragma once
 #include<iostream>
 using namespace std;
-
+/*
 class Maze{
 
 public:
@@ -26,7 +26,7 @@ bool solve(int currR, int currC){
         if(solve(currR -1 , currC) || solve(currR +1 , currC) || solve(currR , currC+1) || solve(currR, currC -1 )){
             return true;
         }else{
-            printMaze();
+            //printMaze();
             maze[currR][currC] = ' ';
             return false;
         }
@@ -87,3 +87,4 @@ int main()
     return 0;
 }
 
+*/
