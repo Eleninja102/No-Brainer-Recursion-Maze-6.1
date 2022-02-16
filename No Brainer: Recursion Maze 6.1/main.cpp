@@ -34,9 +34,10 @@ bool isPalindrome(string word, int first, int last ){
         return false;
     }else if(first == last){
         return true;
-    } else{
-        isPalindrome(word, ++first, --last);
-        return true;
+    }else{
+        bool x = isPalindrome(word, ++first, --last);
+        return x;
+       
     }
 }
 //Facilitate Recursive method call
